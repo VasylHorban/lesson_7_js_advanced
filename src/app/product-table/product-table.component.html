@@ -1,0 +1,29 @@
+<table>
+    <caption>Goods list </caption>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Expiration date</th>
+    </tr>
+    <tbody>
+        <tr *ngFor = "let product of products">
+            <td [ngClass]="{
+                red : product.expirationCode === 2,
+                yellow : product.expirationCode === 1
+            }">{{product.name}}</td>
+            <td [ngClass]="{
+                red : product.expirationCode === 2,
+                yellow : product.expirationCode === 1
+            }">{{product.price}}</td>
+            <td [ngClass]="{
+                red : product.expirationCode === 2,
+                yellow : product.expirationCode === 1
+            }">{{product.category}}</td>
+            <td [ngClass]="{
+                red : product.expirationCode === 2,
+                yellow : product.expirationCode === 1
+            }">{{product.expirationDate | date : 'dd/MM/yyyy'}}</td>
+        </tr>
+    </tbody>
+</table>

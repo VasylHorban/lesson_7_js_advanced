@@ -1,0 +1,29 @@
+table {
+    margin: 50px auto;
+    color: #fff;
+    font-family: 'Yusei Magic', sans-serif;
+}
+caption{
+    color:rgb(55, 84, 85);
+    font-size:x-large;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+th,td{
+    text-align: center;
+    padding: 15px 50px;
+}
+th{
+    background-color:cadetblue;
+}
+td{
+    background-color: rgb(228, 228, 228);
+    color: rgb(55, 84, 85);
+
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
